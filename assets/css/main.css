@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  font-family: "Literata";
+  font-family: "Playfair", serif;
+  font-weight: 400;
   margin: auto;
   max-width: var(--main-width);
   padding-left: var(--main-padding);
@@ -20,12 +21,16 @@ h1 {
   margin-top: var(--h1-margin-top);
   margin-bottom: var(--h1-margin-bottom);
   font-size: var(--h1-font-size);
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  
 }
 
 h2 {
   margin-top: var(--h2-margin-top);
   margin-bottom: var(--h2-margin-bottom);
   font-size: var(--h2-font-size);
+  font-family: "Playfair Display", serif
 }
 
 h3,
@@ -35,6 +40,7 @@ h6 {
   font-size: var(--hx-font-size);
   margin-top: var(--hx-margin-top);
   margin-bottom: var(--hx-margin-bottom);
+  font-family: "Playfair Display", serif;
 }
 
 p {
@@ -89,7 +95,7 @@ code {
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig";
   font-variant-ligatures: contextual;
-  font-family: "Monaspace";
+  font-family: "monospace";
   font-size: .9em;
   line-height: 0;
 }
@@ -150,7 +156,7 @@ footer {
 }
 
 footer a {
-  font-family: "Monaspace";
+  font-family: "monospace";
   margin-left: .2rem;
   margin-right: .2rem;
 }
@@ -176,7 +182,7 @@ footer a {
 
 .line-date {
   font-size: small;
-  font-family: "Monaspace";
+  font-family: "monospace";
   min-width: 120px;
   max-width: 120px;
   text-align: right;
@@ -401,7 +407,7 @@ figcaption {
 /* breadcrumbs */
 
 .breadcrumbs {
-  /* font-family: "Monaspace"; */
+  /* font-family: "monospace"; */
   font-size: .8em;
   margin-bottom: calc(-0.5 * var(--h1-margin-top));
 }
@@ -416,7 +422,7 @@ figcaption {
 
 .back-to-top {
   text-align: center;
-  font-family: "Monaspace";
+  font-family: "monospace";
   font-size: small;
   margin-bottom: 2rem;
   margin-top: -3rem;
